@@ -1,0 +1,21 @@
+//SDL includes
+#include <SDL.h>		// Always needs to be included for an SDL app
+#include "Game.h"
+
+//Game Object
+Game* g_game = 0;
+
+int main(int argc, char* argv[]) {
+	g_game = new Game();
+
+	g_game->init("SDL Repas", 100, 100, 640, 480, 0);
+
+	while (g_game->running()) {
+		g_game->handleEvents();
+		g_game->update();
+		g_game->render();
+	}
+	g_game->clean();
+
+	return 0;
+}
