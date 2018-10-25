@@ -1,3 +1,7 @@
-﻿  main.cpp
-  Project2.vcxproj -> C:\Users\pjaumira\Downloads\Tecnologuies-18-19-master\\bin\x64Debug\AA1_02_SDL.exe
-  0 File(s) copied
+﻿  Game.cpp
+c:\users\pjaumira\documents\github\repas-tp\src\project2\game.cpp(41): error C2084: function 'void Game::render(void)' already has a body
+  c:\users\pjaumira\documents\github\repas-tp\src\project2\game.h(17): note: see previous definition of 'render'
+c:\users\pjaumira\documents\github\repas-tp\src\project2\game.cpp(46): error C2084: function 'void Game::clean(void)' already has a body
+  c:\users\pjaumira\documents\github\repas-tp\src\project2\game.h(18): note: see previous definition of 'clean'
+c:\users\pjaumira\documents\github\repas-tp\src\project2\game.cpp(53): error C2084: function 'void Game::handleEvents(void)' already has a body
+  c:\users\pjaumira\documents\github\repas-tp\src\project2\game.h(15): note: see previous definition of 'handleEvents'
